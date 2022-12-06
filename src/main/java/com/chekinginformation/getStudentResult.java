@@ -34,8 +34,6 @@ import com.util.EnterValidIdException;
 				
 		       for(Integer i: al) {
 		    	   
-		    	   //System.out.println(i);
-		    	   
 					if(id==i) {
 						count++;
 					}
@@ -50,12 +48,7 @@ import com.util.EnterValidIdException;
 		    	   
 		       }else {
 		    	   
-		      
-			
-			
-			
-
-			
+		     
 	        SessionFactory sessionFactory = DBconnection.getSessionFactory();
 			
 

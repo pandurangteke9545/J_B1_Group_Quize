@@ -25,12 +25,7 @@ public class GetAllStudentData {
 			LinkedHashMap<String, String> hashmap = new LinkedHashMap<String, String>();
 		     Query query =session.createQuery("from Student");
 		     
-		     
-//		     "from Payment where vcode=:p_Vcode or (Installment_Vcode=:installmentVcode and
-//		     payment_date>:pdate) order by vcode desc"
-
-		     
-			
+	
 			List<Student> list = query.list();
 			
 			Collections.sort(list,new com.util.NameComparator());
